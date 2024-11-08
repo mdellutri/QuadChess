@@ -19,7 +19,7 @@ class chessAIQueen:
 
             if random_move.special_type == random_move.TO_PROMOTE_TYPE:
                 '''if we have to specify a pawn promotion we promote it to a Bishop'''
-                random_piece.promote_class_wanted = Bishop
+                random_piece.promote_class_wanted = Queen
 
             print(f"{random_piece} moves to {random_piece.move(random_move)}") #executing this move
     
